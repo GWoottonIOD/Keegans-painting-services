@@ -46,9 +46,9 @@
 .roller-container {
   /* position: relative; */
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background: white;
-  overflow: hidden;
+  /* overflow: ; */
 }
 
 /* Paint strokes */
@@ -94,7 +94,7 @@
   position: absolute;
   bottom: 0px;
   left: -100px;
-  width: 100px;
+  width: 0px;
   height: 30px;
   display: flex;
   flex-direction: column;
@@ -108,7 +108,7 @@
     left: -100px;
   }
   100% {
-    left: 85%;
+    left: 84%;
   }
 }
 

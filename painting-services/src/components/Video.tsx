@@ -20,12 +20,12 @@ export default function Video() {
       component="ul"
       sx={{ display: 'flex', gap: 2,
         flexWrap: 'wrap', mt: `80px`,
-        height: 800, animation: `${fadeIn} 5s ease-in-out`,
+        height: '60vh', animation: `${fadeIn} 5s ease-in-out`,
         padding: 2,
         backgroundColor: 'primary.light',
         }}
     >
-      <Card component="li" sx={{ minWidth: 300, flexGrow: 1 }}>
+      <Card component="li" sx={{ flexGrow: 1 }}>
         <CardCover>
           <video
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}

@@ -7,7 +7,8 @@ export default function AppRoutes() {
   return (
 
     <Routes>
-      <Route path='/' element={<Container><Video /></Container>} />
+      <Route path='/Keegans-painting-services/' element={<Container sx={{width: '100%'
+      }}><Video /></Container>} />
     </Routes>
   )
 }
